@@ -1,6 +1,11 @@
+
+
 x = 'mingma'
 
-def myFunc():
-    print(x)
+def learning():
+    global x
+    x  = 'sherpa'
+    
+learning()
 
-myFunc()
+print(x)

@@ -6,9 +6,8 @@ list2.append(3)
 print(list2)
 
 
-for x in list1: 
-    if x == "apple":
-        print(x)
-    else:
-        print('no apple')
 
+x = list1[0]
+list1[0] = list1[1]
+list1[1]= x
+print(list1)
